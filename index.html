@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Card Appointment Booking</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Health Card Scanner</h1>
+        
+        <div class="scanner-container">
+            <div id="scanner">
+                <video id="qr-video" width="300" height="300"></video>
+                <canvas id="qr-canvas" style="display: none;"></canvas>
+            </div>
+            <button id="start-scanner">Start Scanner</button>
+            <button id="stop-scanner" style="display: none;">Stop Scanner</button>
+        </div>
+        
+        <div class="card-container" id="card-container" style="display: none;">
+            <div class="health-card">
+                <div class="card-header">
+                    <h2>Valid Blue Card</h2>
+                </div>
+               <div class="card-body">
+                  <div class="card-image-container">
+                   <img id="image" src="" alt="Card Holder Image" class="card-image">
+
+                </div>
+                    <div class="patient-info">
+                        <h3 id="patient-name">-</h3>
+                        <p><strong>ID:</strong> <span id="patient-id">-</span></p>
+                        <p><strong>Plan:</strong> <span id="patient-plan">-</span></p>
+                        <p><strong>Valid until:</strong> <span id="patient-valid-date">-</span></p>
+                    </div>
+                    <button id="book-appointment" class="book-btn">BOOK APPOINTMENT</button>
+                </div>
+                <div class="card-footer">
+                    <p>Rajalakshmi HealthCity</p>
+                    <p class="tagline">BELIEVE IN THE FUTURE</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="notification" class="notification"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

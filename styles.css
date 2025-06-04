@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.scanner-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#scanner {
+    margin: 0 auto 20px;
+    border: 3px solid #3498db;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    background-color: #000;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.health-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+}
+
+.card-header {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.patient-info {
+    margin-bottom: 20px;
+}
+
+.patient-info h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.patient-info p {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.book-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #2ecc71;
+    margin-top: 20px;
+}
+
+.book-btn:hover {
+    background-color: #27ae60;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.card-footer p {
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #3498db !important;
+    font-weight: bold;
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #2ecc71;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+.card-image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.card-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #3498db;
+}
