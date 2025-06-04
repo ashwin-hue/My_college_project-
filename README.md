@@ -34,13 +34,8 @@ project-root/
 🛡️ Fully responsive and styled interface
 
 🛠️ How to Run
-1. Clone the Repository
-
-git clone https://github.com/your-repo/health-card-system.git
-cd health-card-system
-
+1. Arrange the in folder as discribed
 2. Install Dependencies
-
 npm install
 3. Setup MySQL Database
 Create a MySQL database named health_card_system and a table called patients:
@@ -60,8 +55,7 @@ CREATE TABLE patients (
 Note: Add sample data or use the registration form to populate the database.
 
 4. Start the Server
-5. 
-node server.js
+5. node server.js
 Your app will be running at http://localhost:3000.
 
 📌 QR Scanner Usage
