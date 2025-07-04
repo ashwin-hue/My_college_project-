@@ -104,12 +104,12 @@ public class MainActivity extends AppCompatActivity {
 
                             String img_url = response.getString("image").toString();
 
-                                Picasso.get()
-                                        .load(img_url)
-                                        .placeholder(R.drawable.profile)
-                                        .transform(new CropCircleTransformation()) // for circle
-                                        .error(R.drawable.profile)
-                                        .into(imageView);
+                            Picasso.get()
+                                    .load(img_url)
+                                    .placeholder(R.drawable.profile)
+                                    .transform(new CropCircleTransformation()) // for circle
+                                    .error(R.drawable.profile)
+                                    .into(imageView);
 
 
 
