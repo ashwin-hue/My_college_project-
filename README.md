@@ -18,7 +18,7 @@ A modern Android application designed for healthcare organizations to **scan QR 
 
 ## 📱 Screenshots
 
-*(Add your app screenshots here)*
+![Home](Projects/Screenshot1.jpg)
 
 ---
 
